@@ -9,7 +9,9 @@
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
-        <link rel="stylesheet" href="highlight/styles/default.min.css">
+        <link rel="stylesheet" href="highlight/styles/base16/ashes.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -20,11 +22,10 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="#author">Author</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#whypython">Why Python?</a></li>
                         <li class="nav-item"><a class="nav-link" href="#book">Roadmap</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#chap1">Chapter 1</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#chap2">Chapter 2</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#chap3">Chapter 3</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#chap4">Chapter 4</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#basics">Basics</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#selflearn">Self Learn!</a></li>
                     </ul>
                 </div>
             </div>
@@ -32,13 +33,22 @@
         <!-- Header-->
         <header class="bg-primary bg-gradient text-white">
             <div class="container px-4 text-center">
-                <h1 class="fw-bolder">Learn Python ...</h1>
+                <div data-aos="zoom-out"><h1 class="fw-bolder">Learn <span class="auto-type"></span></h1></div>
                 <p class="lead">Roadmap ZERO to HERO</p>
-                <a class="btn btn-lg btn-light" href="#author">Start reading!</a>
+                <a class="btn btn-lg btn-light" href="#author">Start Reading!</a>
+                <script src="https://unpkg.com/typed.js@2.0.14/dist/typed.umd.js"></script>
+                <script>
+                    var typed = new Typed(".auto-type", {
+                        strings: ["Python ...", "Coding ...", "With Us!"],
+                        typeSpeed: 200,
+                        backSpeed: 200,
+                        loop: true 
+                    })
+                </script>
             </div>
         </header>
         <!-- About section-->
-        <section id="author">
+        <section id="author" data-aos="fade-left">
             <div class="container px-4">
                 <div class="row gx-4 justify-content-center">
                     <div class="col-lg-8">
@@ -50,103 +60,314 @@
                             <li>Penetration Testing</li>
                             <li>Bug Hunting</li>
                         </ul>
-                        <p class="lead">Treveen me, will be covering all the learning items with you in this roadmap</p>
+                        <div data-aos="fade-in"><p class="lead">Treveen me, will be covering all the learning items with you in this roadmap</p></div>
                     </div>
                 </div>
             </div>
+        </section>
+        <section id="whypython">
+                <div class="container px-5 my-5">
+                    <div class="row gx-5">
+                        <div class="col-lg-4 mb-5 mb-lg-0" data-aos="slide-up">
+                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-code-slash"></i></div>
+                                <h2 class="h4 fw-bolder">Python?</h2>
+                                <p>Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Often, programmers fall in love with Python because of the increased productivity it provides. It's also easier in comparision to other languages</p>
+                                <a class="text-decoration-none" href="https://www.python.org/doc/essays/blurb/">
+                                Learn More 
+                                <i class="bi bi-arrow-right"></i>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 mb-5 mb-lg-0" data-aos="slide-up">
+                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-award-fill"></i></div>
+                                        <h2 class="h4 fw-bolder">Easy?</h2>
+                                        <p>It has a <b>simple syntax</b> that mimics natural language, so it's easier to <i>read and understand</i>. This makes it quicker to build projects, and faster to improve on them. It's beginner friendly, making it popular for entry-level coders.</p>
+                                        <a class="text-decoration-none" href="https://www.coursera.org/articles/what-is-python-used-for-a-beginners-guide-to-using-python">
+                                        Learn More 
+                                        <i class="bi bi-arrow-right"></i>
+                                        </a>
+                                </div>
+                            <div class="col-lg-4" data-aos="slide-up">
+                                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-toggles2"></i></div>
+                                        <h2 class="h4 fw-bolder">Advanced Items</h2>
+                                        <p>Python, named after the British comedy group Monty Python, is a high-level, interpreted, interactive, and object-oriented programming language. Its flexibility allows you to do many things, both big and small.</p>
+                                        <a class="text-decoration-none" href="https://realpython.com/tutorials/advanced/">
+                                        Learn More 
+                                        <i class="bi bi-arrow-right"></i>
+                                        </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
         </section>
         <section id="book">
             <div class="container px-4">
                 <div class="row gx-4 justify-content-center">
                     <div class="col-lg-8">
-                        <h2>Roadmap</h2>
-                        <p class="lead">This roadmap talks about a huge content of theories and code</p>
-                        <img src="assets/python.png" height="350" class="picright" href="python.org">
-                        <ul>
-                            <li>Chapter 1</li>
-                                <ul>
-                                    <li>Setting up environment</li>
-                                    <li>Writting first program</li>
-                                    <li>Calulations and python operators</li>
-                                    <li>Python statements</li>
-                                    <li>Introductory to variables</li>
-                                    <li>Introductory to lists</li>
-                                    <li>Introductory to tuples</li>
-                                    <li>Introductory to dictionaries</li>
-                                </ul>
-                            <li>Chapter 2</li>
-                                <ul>
-                                    <li>`while` and `for` loops</li>
-                                    <li>Classes and objects</li>
-                                    <li>Exception Handling</li>
-                                    <li>Working with XML files</li>
-                                </ul>
-
-                            <li>Chapter 3</li>
-                                <ul>
-                                    <li>Sql Databases</li>
-                                    <li>Develop terminal games</li>
-                                    <li>Develop a terminal app</li>
-                                    <li>Networking with python</li>
-                                </ul>
-                            <li>Chapter 4</li>
-                                <ul>
-                                    <li>Tkinter - GUI applications</li>
-                                    <li>Numpy</li>
-                                </ul>
-                        </ul>
+                            <h2>Roadmap</h2>
+                            <p class="lead">This roadmap talks about a huge content of theories and code</p>
+                            <img src="assets/python.png" height="350" class="picright" href="python.org">
+                            <ul>
+                                <div data-aos="slide-up">
+                                    <li>Basics</li>
+                                        <ul>
+                                            <li>Setting up environment</li>
+                                            <li>Writting first program</li>
+                                            <li>Calulations and python operators</li>
+                                            <li>Python statements</li>
+                                            <li>Introductory to variables</li>
+                                        </ul>
+                                </div>
+                            </ul>
+                            <ul>
+                                <div data-aos="slide-up">
+                                    <li>Additional Resources</li>
+                                </div>
+                            </ul>
+                            <ul>
+                                <div data-aos="slide-up">
+                                    <li>Career Advice</li>
+                                </div>
+                            </ul>
                     </div>
                 </div>
             </div>
         </section>
         <!-- Services section-->
-        <section class="bg-light" id="chap1">
+        <section id="basics">
             <div class="container px-4">
                 <div class="row gx-4 justify-content-center">
                     <div class="col-lg-8">
-                        <h2>Chapter 1</h2>
+                                <div data-aos="fade-in"><h2>Basics</h2></div>
+                    
+                                <div data-aos="fade-in"><p class="lead">Python is one of the most <b>powerful languages</b> amoung the others.
+                                    As everyone might know by now that Python is very <i>begineer-friendly</i> but, also advanced it various fields
+                                    like <i>Data-Science</i> and <i>Machine Learning</i>.</p></div>
+                                
+                                <div data-aos="fade-left"><p class="lead">In this section you'll learn most of the basic stuff in python like lists, dictionaries and tuples. And you'll be edible to try make a calculator app, and you'll understand or have a clear idea/knowledge about python's interface and language.
+                                    Let's get right into it!
 
-                        <p class="lead">In this chapter you'll learn most of the basic stuff in python like lists, dictionaries and tuples. And you'll be edible to try make a calculator app, and you'll understand or have a clear idea/knowledge about python's interface and language.
-                            Let's get right onto it!
-                        </p>
-        
-                        <h3>Setting up Environment</h3>
+                                    To edit code you need a code editor some are mentioned here namley [VSCode, Atom, Pycharm]
+                                    Anyways, you can do a research about code editors and choose a good one for you!
+                                    </p>
+                                </div>
+                
+                                <div data-aos="fade-in"><h3>Setting up Environment</h3></div>
+                                <div data-aos="fade-in">
+                                    <p class="lead">First, to setup your environment to start coding follow the bellow steps; </p>
+                                </div>
+                                <div data-aos="slide-up">
+                                    <ul>
+                                        <li class="lead">Go to python.org <- Python website and install it on your OS</li>
+                                        <li class="lead">Go to code.visualstudio.com as we will be using VSCode to edit code</li>
+                                    
+                                    </ul>
+                                </div>
+                                <div data-aos="slide up"><p class="lead">Now your edible to write your first program in Python!</p></div>
 
-                        <pre>
-                            <code class="python">
-    if param1 > param2: # interesting
-        print 'Gre\'ater'
-        return (param2 - param1 + 1 + 0b10l) or None
-                            </code>
-                        </pre>
+                                <div data-aos="slide-right"><h4>I - First Program</h4></div>
+
+                                <div data-aos="slide-left"><p class="lead">In order to write you first program in Python; go ahead and open up VSCode ad make a new folder; 
+                                        in that folder make a file with the name `main.py` or `yourname.py`. Now before we write any code install 
+                                        the python-extension from the VSCode extensions. In that file write;</p>
+                                </div>
+
+
+                                <div data-aos="flip-up">
+                                    <pre>
+                                        <code class="language-python">
+            print("Hello, World!")
+                                        </code>
+                                    </pre>
+                                </div>
+                                <div data-aos="flip-down">
+                                    <p class="lead">Now, hope on to your terminal and excecute this command to check your python version [Note that if your version is greater than 3.6 your all set up else, you may have to install a compatible version]</p>
+                                </div>
+                                <div data-aos="slide-up">
+                                    <pre>
+                                        <code class="language-python">
+            python --version
+                                        </code>
+                                    </pre>
+                                    <pre>
+                                        <code class="language-python">
+            python3 name.py
+            >>> Hello, World!
+                                        </code>
+                                    </pre>
+
+                                <div data-aos="slide-up">
+                                    <p class="lead">Congrats! If you have done the steps right your output should be : `Hello, World!`</p>
+                                </div>
+
+                                <div data-aos="fade-in"><h4>II - Data Types</h4></div>
+
+                                <div data-aos="slide-up">
+                                    <p> </p>
+                                    <p class="lead">If you print out the data type of the text you made in you first program
+                                    You should the output as a follows</p>
+                                </div>
+                                <div data-aos="slide-up">
+                                    <pre>
+                                        <code class="language-python">
+            >>> type("Hello, world")
+            class 'str'
+                                        </code>
+                                    </pre>
+                                </div>
+
+                                <div data-aos="slide-up">
+                                    <p class="lead">Here the term `class str` refers that your data is a <i>string</i></p>
+                                </div>
+                                <div data-aos="fade-in">
+                                    <h4>Data-Types table</h4>
+                                </div>
+
+                                <div data-aos="slide-up">
+                                    <table class="content-table">
+                                        <thead>
+                                            <tr>
+                                                <th>class `str`</th>
+                                                <th>class `int`</th>
+                                                <th>class `float`</th>
+                                                <th>class `bool`</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>string refers to
+                                                alphanumeric characters
+                                                </td>
+                                                <td>integer refers to whole numbers [+/-]</td>
+                                                <td>float refers to fraction or decimals [+/-]</td>
+                                                <td>boolean refers to conditions [true/false]</td>
+                                            </tr>
+                                        </tbody>
+                                        <tbody>
+                                            <tr>
+                                                <td>Example: Hello, World!</td>
+                                                <td>Example: 10 or -10</td>
+                                                <td>Example: 2.5 or -3.6</td>
+                                                <td>Example: x > b</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                                <div data-aos="zoom-in"><p class="lead">Go through the above table and understand data structures clearly</p></div>
+                                
+
+                                <div data-aos="fade-left"><h4>III - Operators</h4></div>
+                                <div data-aos="slide-up">
+                                    <p class="lead">In Python there are mathematical symbols 
+                                    like:-  + [addition], - [substraction], / [division], * [multiplication].
+                                
+                                    </p>
+                                    <p class="lead">
+                                    However, there are some other operators as well: "=" is used to assign a variable,
+                                    "==" is mostly used in conditions to express something equals to another, 
+                                    "+=" refers to add a value to the same value/variable, "-=" refers to substract from value to the same variable,
+                                    "*=" refers to times a value to the same variable, "/=" refers to divide a value from the same variable.
+
+                                    <ul>
+                                        <li>" % " this sign refers to mod</li>
+                                        <li>" // " this sign will divide the first number with the second and round it to the nearest integer.</li> 
+                                    </ul>
+
+
+
+                                    Example: 
+                                    </p>
+                                </div>
+                                <div data-aos="slide-up">
+                                    <pre>
+                                        <code class="language-python">
+            x = 2 # variable 
+            x += 1 
+            print(x)
+            # output 3 
+
+            y = 2 # variable 
+            y -= 1
+            print(y)
+            # output 1
+                                        </code>
+                                    </pre>
+                                </div>
+                                <div data-aos="slide-down">
+                                    <p class="lead"><b>Feel free to try out the other operators!</b>
+
+                                    Assign variables using <i>`=`</i> sign;
+                                    For the record variables are empty <i>`data-locations`</i> until we assign a value for them.
+                                    </p>
+                                </div>
+
+                                <a class="text-decoration-none" href="https://www.w3schools.com/python/python_operators.asp">
+                                    Learn More 
+                                    <i class="bi bi-arrow-right"></i></a>
+
+                            </div>
+                        </div>
                     </div>
-                </div>
-            </div>
         </section>
-
-        <section id="chap2">
+        <section id="selflearn">
+                    <div class="container px-4">
+                        <div class="row gx-4 justify-content-center">
+                            <div class="col-lg-8">
+                                <div data-aos="slide-up">
+                                    <h2>Self Learn Curriculum</h2>
+                                </div>
+                                
+                                <div data-aos="slide-up">
+                                    <p class="lead">After, going through the basics I recommend to these 
+                                        websites to learn <a href="python.ord">python</a> futher!
+                                    </p>
+                                </div>
+                                <div data-aos="fade-in">
+                                    <ul>
+                                        <li><a href="https://realpython.com/">Real-python</a></li>
+                                        <li><a href="https://www.w3schools.com/">W3 Schools</a></li>
+                                        <li><a href="https://www.learnpython.org/">Learn-python</a></li>
+                                    </ul>
+                                </div>
+                                <div data-aos="fade-in">
+                                    <p class="lead">Don't stop after that! Hope on 
+                                        to other coding websites and challenge yourself for coding questions
+                                    </p>
+                                </div>
+                                <div data-aos="fade-in">
+                                    <ul>
+                                        <li><a href="https://codesignal.com/"></a>Code Signal</li>
+                                        <li><a href="https://leetcode.com/">Leet Code</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        </section>
+        <section id="careeradvice">
             <div class="container px-4">
                 <div class="row gx-4 justify-content-center">
                     <div class="col-lg-8">
-                        <h2>Chapter 2</h2>
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
-
-                        <pre>
-                            <code class="language-python">
-                            @requires_authorization(roles=["ADMIN"])
-                            def somefunc(param1='', param2=0):
-                                if param1 > param2: # interesting
-                                print 'Gre\'ater'
-                                return (param2 - param1 + 1 + 0b10l) or None
-                            </code>
-                        </pre>
+                        <div data-aos="slide-up">
+                            <h2>Career Advice</h2>
+                        </div>
+                        
+                        <div data-aos="slide-up">
+                            <p class="lead">Overall, my advice for you is to never stop learning!
+                                `You can do anything you want, you just gonna put up some hard work to make it work`
+                            </p>
+                        </div>
+                        <div data-aos="slide-up">
+                            <h2>Thank You!</h2>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
         <!-- Footer-->
         <footer class="py-5 bg-dark">
-            <div class="container px-4"><p class="m-0 text-center text-white">Copyright &copy; Python 2023</p></div>
+            <div class="container px-4"><p class="m-0 text-center text-white">Made with 💖 by THB</p></div>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -157,5 +378,11 @@
 
         <script src="highlight/highlight.min.js"></script>
         <script>hljs.highlightAll();</script>
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+         <script src="https://www.jdoodle.com/assets/jdoodle-pym.min.js" type="text/javascript"></script>
     </body>
 </html>
