@@ -1,5 +1,5 @@
 
-![logo](https://user-images.githubusercontent.com/97717488/229420892-21ebc590-28f2-496b-b8f1-2c370c2bde91.png)
+![logo (1)](https://user-images.githubusercontent.com/97717488/229421085-88d4ca7f-b9ee-4235-94f6-2e0eb3334c17.png)
 
 # The Ultimate Resource Pack For Python
 
