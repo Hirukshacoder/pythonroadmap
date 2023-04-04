@@ -17,7 +17,7 @@ guaranteed you'll be a pro in this language.
 ## Resources 🪵
 
 ### Basics
-- [pythonroadmap.io ⏺️](https://hirukshacoder.github.io/pythonroadmap)
+
 - [Real python 💥](https://realpython.com)
 - [W3 Schools 🛣️](https://www.w3schools.com/)
 - [Free Code Camp Python Begineer Course 🔰](https://www.youtube.com/watch?v=eWRfhZUzrAc)
