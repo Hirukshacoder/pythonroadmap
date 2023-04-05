@@ -1,5 +1,5 @@
 
-# The Intermideate Level 🎯
+# The Intermideate Level 🎯 Still under development
 
 ## 🈺 N^2 runtime sorting algorithms
 
