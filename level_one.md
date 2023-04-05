@@ -1,21 +1,23 @@
 
-# The Basics
+# The Basics / Level One 
 
 Welcome, to the [basic](https://github.com/Hirukshacoder/pythonroadmap) part of this roadmap! 
 
 To begin with follow the guidelines bellow;
 
-- [ ]  Go through this [article](https://www.pythoncentral.io/why-python/) to understand the main purpose of learning Python.
-- [ ]  ***Set-up Environment*** to write code [here](https://code.visualstudio.com/docs/python/python-tutorial)
-- [ ]  Write your first **Program** in Python
+- [X]  Go through this [article](https://www.pythoncentral.io/why-python/) to understand the main purpose of learning Python.
+- [X]  ***Set-up Environment*** to write code [here](https://code.visualstudio.com/docs/python/python-tutorial)
+- [X]  Write your first **Program** in Python
 
 ## First Python Program
 
 * Open up your code editor ex:- visualstudio code, pycharm
 * Now in your code editor try this Python `Hello, World!` program;
+
 ```python
 print("Hello, World!")
 ```
+
 * Now, save the file and run it by pressing the `F5` key or just the run button.
 
 #### 🤘Congrats, If your terminal displayed `Hello, World!`
