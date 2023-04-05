@@ -48,12 +48,8 @@ print("Hello, World!")
 
 * Learn basic [modules](https://www.w3schools.com/python/python_modules.asp), learn the [Random Module](https://www.w3schools.com/python/module_random.asp)
 
+### Excercises
 
-
-## Exercises
-
-* ➡️ Answer this small [quiz](https://www.w3schools.com/python/exercise.asp)
-* ➡️ Build a `Random Password Generator` in Python
-* ➡️ Build a `Number Guessing Game` in Python
+* Visit the [Exercises](https://github.com/Hirukshacoder/pythonroadmap/tree/main/exercises) page for questions and answers
 
 ### Your Good to go! Visit the next level
