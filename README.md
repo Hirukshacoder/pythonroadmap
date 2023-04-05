@@ -24,6 +24,6 @@ guaranteed you'll be a pro in this language.
 
 * You can go through all the documents attached, and learn python easily
 
-### 💡Hint: You may begin with the basics
+### 💡Hint: You may begin with the [basics](/basics)
 
 Made with 💖 by THB 
