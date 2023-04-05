@@ -27,8 +27,10 @@ guaranteed you'll be a pro in this language.
 
 ## 🎮 Levels
 
-* [Level one](https://github.com/Hirukshacoder/pythonroadmap/level_one.md)
+* [Level one](https://github.com/Hirukshacoder/pythonroadmap/blob/main/level_one.md)
 * [Level two]()
+* [Level three]()
+* [Level four]()
 
 ### 💡Hint: You may begin with the [basics](/basics)
 
