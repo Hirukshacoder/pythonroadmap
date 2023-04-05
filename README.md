@@ -10,19 +10,25 @@ language.
 Once, you have completed all the following steps in here, it's
 guaranteed you'll be a pro in this language.
 
-## Authors
+## ✍️ Authors
 
 - [@Hirukshacoder](https://www.github.com/hirukshacoder)
 - [@tmanumsl](https://github.com/tmanumsl)
 ## Resources 🪵
 
-## Usage 
+## 🪴 Usage 
 
 * Learn all the stuff from zero to hero level in python
 * All the assets are attached to this repository above 
 * Assets can be <b>downloaded</b> to you local device 
 
 * You can go through all the documents attached, and learn python easily
+
+
+## 🎮 Levels
+
+* [Level one](https://github.com/Hirukshacoder/pythonroadmap/level_one.md)
+* [Level two]()
 
 ### 💡Hint: You may begin with the [basics](/basics)
 
